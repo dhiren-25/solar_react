@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <div>
@@ -11,7 +11,9 @@ const Footer = () => {
       <div className="row gy-4 gy-lg-0 justify-content-xl-between">
         <div className="col-12 col-md-4 col-lg-3 col-xl-2">
           <div className="widget">
-           <h3>Vidhyut Energy</h3>
+          <Link className="navbar-brand" to="/">
+            <img src="./logo2.png" alt="BootstrapBrain Logo" width="180" height="95"/>
+          </Link>
           </div>
         </div>
         <div className="col-12 col-md-4 col-lg-3 col-xl-2">

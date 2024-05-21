@@ -10,7 +10,7 @@ const Navbar2 = () => {
       <nav className="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret fixed-top" >
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src="https://bootstrapbrain.com/wp-content/uploads/2022/11/bootstrapbrain-logo.svg" alt="BootstrapBrain Logo" width="135" height="44"/>
+            <img src="./logo2.png" alt="BootstrapBrain Logo" width="180" height="95"/>
           </Link>
           <button className="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
