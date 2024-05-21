@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 const Navbar2 = () => {
   return (
     <div>
+      <br/>
+      <br/>
       <nav className="navbar navbar-expand-md bg-light bsb-navbar bsb-navbar-hover bsb-navbar-caret fixed-top" >
         <div className="container">
           <Link className="navbar-brand" to="/">
@@ -32,7 +34,7 @@ const Navbar2 = () => {
                   <Link className="nav-link" to="/projects">Projects</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/blog">Blog</Link>
+                  <Link className="nav-link" to="/products">Products</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/contact">Contact</Link>
